@@ -6,7 +6,6 @@ contextBridge.exposeInMainWorld('versions', {
     electron: () => process.versions.electron,
 });
 
-
-contextBridge.exposeInMainWorld('eevents', {
+contextBridge.exposeInMainWorld('Main', {
     ping: (val) => ipcRenderer.invoke('ping'),
 });
