@@ -7,7 +7,7 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "env-cmd electron-forge publish"
+    "publish": "electron-forge publish"
   },
   "author": "Beenlord",
   "license": "ISC",
@@ -25,7 +25,6 @@
     "nodemon": "^3.1.4"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1",
-    "env-cmd": "^10.1.0"
+    "electron-squirrel-startup": "^1.0.1"
   }
 }
